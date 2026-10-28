@@ -3,7 +3,7 @@ import { ExternalLink, Code2 } from 'lucide-react';
 
 export default function Projects() {
   return (
-    <section id="projects" className="max-w-6xl mx-auto px-6 py-24 border-t border-slate-900">
+    <section id="projects" className="scroll-mt-20 max-w-6xl mx-auto px-6 py-24 border-t border-slate-900">
       <div className="mb-12">
         <div className="font-mono text-xs text-emerald-500 uppercase tracking-widest mb-2">
           // Production Deployments

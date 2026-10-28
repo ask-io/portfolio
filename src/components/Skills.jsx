@@ -15,7 +15,7 @@ const skillCategories = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="max-w-6xl mx-auto px-6 py-24 border-t border-slate-900">
+    <section id="skills" className="scroll-mt-20 max-w-6xl mx-auto px-6 py-24 border-t border-slate-900">
       <div className="mb-12">
         <div className="font-mono text-xs text-emerald-500 uppercase tracking-widest mb-2">
           // Capabilities & Stack

@@ -2,7 +2,7 @@ import { Mail, ArrowUpRight } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer id="contact" className="border-t border-slate-900 bg-slate-950 py-16">
+    <footer id="contact" className="scroll-mt-20 border-t border-slate-900 bg-slate-950/60 py-16">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
         <div>
           <div className="font-mono text-xs text-emerald-500 uppercase tracking-widest mb-2">
@@ -24,7 +24,7 @@ export default function Footer() {
             GitHub <ArrowUpRight size={14} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/abhijit-s-kunnel/"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-1 text-slate-400 hover:text-emerald-400 transition-colors"
@@ -32,7 +32,7 @@ export default function Footer() {
             LinkedIn <ArrowUpRight size={14} />
           </a>
           <a
-            href="mailto:contact@example.com"
+            href="mailto:abhijitsmijukunnel@gmail.com"
             className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-500/20 transition-all font-mono"
           >
             <Mail size={15} /> Send an Email
